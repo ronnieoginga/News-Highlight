@@ -8,7 +8,7 @@ class Source:
         self.id =id
         self.name = name
         self.description = description
-         
+
 # Article class
 class Article:
     '''
@@ -21,6 +21,6 @@ class Article:
         self.author= author
         self.title = title
         self.description = description
-        self.url = url 
+        self.url = url
         self.urlToImage = urlToImage
         self.publishedAt = publishedAt

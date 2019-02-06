@@ -1,5 +1,5 @@
 import unittest
-from models import Sources
+from app.models import Sources
 
 Sources = sources.Sources
 
@@ -18,4 +18,3 @@ class sources_test(unittest.TestCase):
         this is a function to assert whether the instance is really an instance of our class
         '''
         self.assertTrue(isinstance(self.new_source, Sources))
-        

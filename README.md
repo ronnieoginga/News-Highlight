@@ -23,4 +23,4 @@ In case of any trouble comments or more ideas, please email at oginga001ronney@g
 
 ## License
 
-MIT licence Copyright (c) 2019 Ronald Otieno
+MIT licence Copyright (c) 2019 Ronald Otieno.

@@ -13,7 +13,7 @@ HTML
 
 Python
 
-CSS
+CSS.
 
 BOOTSTRAP.
 

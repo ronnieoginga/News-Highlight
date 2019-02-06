@@ -15,7 +15,7 @@ Python
 
 CSS
 
-BOOTSTRAP
+BOOTSTRAP.
 
 ## contacts
 

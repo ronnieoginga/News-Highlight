@@ -53,7 +53,7 @@ def process_results(source_list):
         id = source_item.get('id')
         name = source_item.get('name')
         description = source_item.get('description')
-        
+
 
         if name:
             source_object = Source(id,name,description)
@@ -79,7 +79,7 @@ def get_articles(id):
             article_results_list = get_articles_response['articles']
             article_results = process_articles(article_results_list)
 
-    return article_results 
+    return article_results
 
 def process_articles(article_list):
     '''
@@ -100,7 +100,7 @@ def process_articles(article_list):
         urlToImage = article_item.get('urlToImage')
         publishedAt = article_item.get('publishedAt')
 
-    
+
         article_object = Article(id,name,description,title,author,url,urlToImage,publishedAt)
         article_results.append(article_object)
 
